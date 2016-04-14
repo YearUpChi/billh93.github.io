@@ -1,0 +1,77 @@
+/*
+	Make dropdown menu color same as navbar
+	change font color to the blueish color	
+*/	
+
+
+
+
+
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+.white-text{
+	color: white;
+}
+
+.black-text{
+	color: black;
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.navbar{
+	font-weight: bold;
+}
+
+.dropdown-menu{
+	background-color: #00bc8c;
+}
+
+.dropdown-menu li a:hover{
+	padding: 5%;
+}
+
+.dropdown-menu li a:hover{
+	background-color: #00a379 !important;
+}
+
+.dropdown-menu>li>a{
+	font-weight: bold;
+	color: white;
+}
+
+.dropdown .divider{
+	background-color: white;
+}
+
+.jumbotron{
+	background-color: #fafafa;
+	color: black;
+	text-align: center;
+}
+
+.thumbnail{
+	background-color: #fafafa;
+}
+
+.caption p, h3{
+	color: black;
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
