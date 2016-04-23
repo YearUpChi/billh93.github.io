@@ -1,4 +1,4 @@
-/*!
+ /*!
  * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -73,9 +73,49 @@ body {
 }
 
 /* Posts */
-#post{
+#aspPost{
 	background-image: url("../images/aspCode.png");
 	background-attachment: fixed;
+}
+
+#cPost{
+	background-image: url("../images/cCode.jpg");
+	background-attachment: fixed;
+}
+
+#javaPost{
+	background-image: url("../images/javaCode.png");
+	background-attachment: fixed;
+}
+
+#javascriptPost{
+	background-image: url("../images/javascriptCode.png");
+	background-attachment: fixed;
+}
+
+#phpPost{
+	background-image: url("../images/phpCode.png");
+	background-attachment: fixed;
+}
+
+#pythonPost{
+	background-image: url("../images/pythonCode.png");
+	background-attachment: fixed;
+}
+
+#rubyPost{
+	background-image: url("../images/rubyCode.png");
+	background-attachment: fixed;
+}
+
+#swiftPost{
+	background-image: url("../images/swiftCode.jpg");
+	background-attachment: fixed;
+}
+
+#cLogo, #javaLogo, #javascriptLogo, #phpLogo, #pythonLogo, #rubyLogo, #swiftLogo{
+	width: 600px;
+	height: 375px;
 }
 
 #image-container{
@@ -228,9 +268,8 @@ footer a:hover{
 @media only screen and (min-width: 969px) {
 	/* Posts */  
   #post-container{
-    margin: 3% auto 0 auto;
 	width: 80%;
-	padding: 4% 0;
+	padding: 2% 0;
 	font-size: 18px;
   }
 }
