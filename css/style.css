@@ -113,11 +113,6 @@ body {
 	background-attachment: fixed;
 }
 
-#cLogo, #javaLogo, #javascriptLogo, #phpLogo, #pythonLogo, #rubyLogo, #swiftLogo{
-	width: 600px;
-	height: 375px;
-}
-
 #image-container{
 	width: 90%;
 	margin: 2% auto 0 auto;
@@ -183,12 +178,17 @@ body {
 }
 
 .posted-by{
-	border: 1px solid white;
-	margin: 50% 0 0 0;
+  border: 1px solid white;
+  margin: 50% 0 0 0;
 }
 
 #post-info{
-	margin-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+.star-rating span{
+	font-size: 3em;
+	color: #00bc8c;
 }
 
 footer {
@@ -218,6 +218,14 @@ footer a:hover{
 	color: #375a7f;
 }
 
+/***** Tablet ****/
+@media only screen and (min-width: 570px) {
+#cLogo, #javaLogo, #javascriptLogo, #phpLogo, #pythonLogo, #rubyLogo, #swiftLogo{
+	width: 600px;
+	height: 375px;
+  }
+
+}
 /***** Desktop ****/
 @media only screen and (min-width: 769px) {
 	
@@ -264,7 +272,7 @@ footer a:hover{
   }
 }
 
-/***** Desktop ****/
+/***** Larger Desktop ****/
 @media only screen and (min-width: 969px) {
 	/* Posts */  
   #post-container{
